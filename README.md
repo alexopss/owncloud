@@ -5,7 +5,7 @@ Terraform: Terraform é uma infraestrutura de código aberto como ferramenta de 
 
 AWS(EC2): Amazon Elastic Compute Cloud é uma parte central da plataforma de cloud computing da Amazon.com, Amazon Web Services. O EC2 permite que os usuários aluguem computadores virtuais nos quais rodam suas próprias aplicações.
 
-Ubuntu 18.06: Ubuntu é uma noção existente nas línguas Zulu e xhosa - línguas Bantu do grupo ngúni, faladas pelos povos da África Subsaariana. Na África do Sul, a noção de Ubuntu ligou-se também à história da luta contra o Apartheid e inspirou Nelson Mandela na promoção de uma política de reconciliação nacional.
+Ubuntu 18.06: Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do núcleo Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. É desenvolvido pela Canonical Ltd.
 
 Docker: Docker é um software contêiner da empresa Docker, Inc, que fornece uma camada de abstração e automação para virtualização de sistema operacional no Windows e no Linux,[1][2] usando isolamento de recurso do núcleo do Linux como cgroups e espaços de nomes do núcleo, e um sistema de arquivos com recursos de união, como OverlayFS[3] criando contêineres independentes para executar dentro de uma única instância do sistema operacional, evitando a sobrecarga de manter máquinas virtuais (VM).
 
