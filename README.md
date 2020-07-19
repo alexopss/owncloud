@@ -1,7 +1,6 @@
 # Owncloud
-Projeto baseado em Terraform.
+Base do projeto:
 
-Estrutura:
 Terraform
 
 AWS(EC2)
