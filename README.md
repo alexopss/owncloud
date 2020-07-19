@@ -60,11 +60,12 @@ Tag de Nomeação da Instancia:
     Name = "Docker"
     }
     
-Conexão via SSH a instancia Criada:
+Conexão via SSH a instancia criada na aws:
 
     connection {
     type        = "ssh"
     user        = "ubuntu"
+    #Chave extraido na Aws
     private_key = file("~/.aws/docker.pem")
     host        = self.public_ip
     }
@@ -76,7 +77,6 @@ Execusao remota a instacia para criação do Docker e Container Owncloud:
     "sudo apt-get update && sudo apt install docker.io -y && sudo docker run -d -p 80:80 owncloud:8.1"
     ]
     }
-}
 
 Criação de grupo de segurança:
 
@@ -110,7 +110,6 @@ Saida Full:
     to_port     = 0
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
-    }
     }
     
 Retorno de Endereço do dns no console do Terraform:
