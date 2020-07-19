@@ -1,15 +1,15 @@
-# owncloud
+# Owncloud
 Projeto baseado em Terraform.
 
 Estrutura:
 Terraform
-  AWS(EC2)
-   Ubuntu 18.06
-    Docker
-     Owncloud
-     SQLite
+AWS(EC2)
+Ubuntu 18.06
+Docker
+Owncloud
+SQLite
      
-Terraform:
+# Terraform:
 
 Owncloud.tf
 credential
