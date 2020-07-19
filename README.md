@@ -13,11 +13,15 @@ Owncloud: Cloud é um sistema de computador mais conhecido como "serviço de arm
 
 SQLite: SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido. Programas que usam a biblioteca SQLite podem ter acesso a banco de dados SQL sem executar um processo SGBD separado.
      
-# Terraform:
+# Arquivos:
 
 Owncloud.tf
 
 credential
+
+# Terraform:
+
+Arquivo credencial para acesso entre Aws e Terraform(Local).
 
 credential:
 
@@ -25,9 +29,11 @@ credential:
     aws_access_key_id = "XXXXXXXXXXXXXXX"
     aws_secret_access_key = "XXXXXXXXXXXXXXXXXXX"
 
+Arquivo Terraform com toda programação da criação do ambiente.
+
 Owncloud.tf:
 
-Configurações Iniciais:
+Configurações iniciais, neste trecho fazemos conexão e seleção da região: 
 
     # Configuração Base para criação de uma Instancia EC2(AWS).
     provider "aws" {
@@ -39,7 +45,7 @@ Configurações Iniciais:
     profile = "docker"
     }
 	
-Configuracões da Instancia:
+Configuracões da instancia, aqui fazemos seleção da imagem, tamanho de disco, tipo da instancia e seleção das configurações de rede:
 
     #Configuração iniciais para criação da instancia.
     resource "aws_instance" "docker" {
@@ -83,7 +89,7 @@ Execusao remota a instacia para criação do Docker e Container Owncloud:
     ]
     }
 
-Criação de grupo de segurança:
+Criação de grupo de segurança, basicamente as configurações de firewall:
 
     resource "aws_security_group" "ssh" {
     name = "allow_ssh"
