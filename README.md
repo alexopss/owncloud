@@ -1,4 +1,4 @@
-# Owncloud
+# Owncloud + EC2 + Terraform + Docker
 Base do projeto:
 
 Terraform: Terraform é uma infraestrutura de código aberto como ferramenta de software de código criada pela HashiCorp. Ele permite que os usuários definam e provisionem uma infraestrutura de datacenter usando uma linguagem de configuração de alto nível conhecida como Hashicorp Configuration Language, ou opcionalmente JSON.
