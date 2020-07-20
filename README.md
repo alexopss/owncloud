@@ -129,7 +129,7 @@ Retorno de Endereço do dns no console do Terraform:
 	value = "${aws_instance.docker.public_dns}"
     }
 
-# Maos a massa
+# Maos a obra!!!
 
 Apos todo o codigo entendido vamos aplicas usando terraform
 
