@@ -2,7 +2,7 @@
 provider "aws" {
 region  = "us-east-1"
 shared_credentials_file = "/home/sistemas/.aws/credentials"
-profile = "awsterraform"
+profile = "docker"
 }
 resource "aws_instance" "docker" {
   	#Imagem AWS
@@ -22,7 +22,7 @@ resource "aws_instance" "docker" {
   }
 
   tags = {
-    Name = "Docker"
+    Name = "docker"
   }
   connection {
     type        = "ssh"
