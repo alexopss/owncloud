@@ -21,6 +21,10 @@ credential
 
 # Terraform:
 
+Baixando plugins da Aws com o comando
+
+    terraform init
+    
 Arquivo credencial para acesso entre Aws e Terraform(Local).
 
 credential:
@@ -32,6 +36,10 @@ credential:
 Arquivo Terraform com toda programação da criação do ambiente.
 
 Owncloud.tf:
+
+Com o comando terraform plan revisaremos toda estrutura que iremos criar com o codigo
+
+    terraforma plan
 
 Configurações iniciais, neste trecho fazemos conexão e seleção da região: 
 
